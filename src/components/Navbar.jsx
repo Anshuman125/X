@@ -5,7 +5,7 @@ import Search from './Search';
 
 function Navbar() {
   return (
-    <div className='nav w-full bg-white px-[2rem] py-[1rem] flex gap-[20%]'>
+    <div className='nav w-full bg-white px-[2rem] py-[1rem] flex gap-[20%] fixed z-50'>
       <div className='logo'>
         <img 
           src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_category/w_144,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/home-screen/1687285683825-e6cf23.jpeg" 
